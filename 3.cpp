@@ -14,7 +14,7 @@ int main(){
             max2 = max;
             max = a%10;
         }
-        if ((max2 < max) and (max > a%10)){
+        if ((a%10 >= max2) and (max > a%10)){
             max2 = a%10;
         }
         a /= 10;
