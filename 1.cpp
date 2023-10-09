@@ -6,9 +6,6 @@ int main(){
     if (a<0){
         a = -a;
     }
-    if (a == 0){
-        return 0;
-    }
     if (a > 0){
         while (a != 0){
             if ((a%2) == 1){
@@ -17,5 +14,5 @@ int main(){
             a = a / 10;
         }
     }
-    return b;
+    cout << b;
 }
